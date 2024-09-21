@@ -1,5 +1,5 @@
 import React from "react";
-
+import {doctorData} from "../helpers/data"
 
 const Doctors = () => {
     /* console.log(doctorData); */
@@ -9,6 +9,8 @@ const Doctors = () => {
         OUR DOCTORS
       </h3>
 
+
+    
     </div>
   );
 };
