@@ -9,6 +9,26 @@ const Doctors = () => {
         OUR DOCTORS
       </h3>
 
+      
+      
+      {
+      doctorData.map((doctor)=> {
+      const {id,name,dep,img } = doctor;
+      return(
+        <div>
+             <h2>{name}</h2>
+             <h3>{dep}</h3> 
+             <h4>{id}</h4>
+             <img src={img} alt="yok" />
+
+             
+        </div>
+     
+
+      );
+    })
+    }
+      
 
     
     </div>
