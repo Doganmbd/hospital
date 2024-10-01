@@ -32,4 +32,4 @@ function AddModal() {
   );
 }
 
-export default Example;
+export default AddModal;
